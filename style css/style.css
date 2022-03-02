@@ -1,0 +1,23 @@
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.wrapper>* {
+  padding: 10px;
+  margin: 10px;
+  flex: 1 100%;
+  border-radius: 10px;
+}
+
+.header{
+  background: #ff6347;
+  height: 120px;
+}
+
+.main{
+  text-align: left;
+  background: #00bfff;
+  height: 300px;
+}
